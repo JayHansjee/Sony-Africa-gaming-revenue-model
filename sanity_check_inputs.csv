@@ -1,0 +1,8 @@
+id,value,unit,source
+sony_gns_revenue_fy2025,29800,$m,"Sony FY2025 Form 20-F, Game & Network Services segment"
+other_geography_share,0.0907,fraction,"Sony geographic disclosure: 'Other' = Asia ex-Japan, Latin America, MEA, Oceania"
+ifpi_ssa_recorded_music_2024,110,$m,"IFPI Global Music Report 2025, 2024 trade revenue"
+ifpi_global_recorded_music_2024,29600,$m,"IFPI Global Music Report 2025, 2024 trade revenue"
+psn_monthly_active_users,123,millions,Sony FY2025 disclosure
+statista_roa_hardware,310.66,$m,Statista Africa-wide hardware ($394.69m) less the three case studies ($84.03m); memo only
+installed_base_scenarios,0.8; 1.5; 2.5,millions,PlayStation owners in Africa: registered PSN accounts (July 2026 report) / plausible / consistent with model volumes
