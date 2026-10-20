@@ -12,8 +12,7 @@ if __name__ == '__main__':
 
     torn = tornado_series(df_ass, countries, assumptions)
     torn['perc_swing'] = 100*torn['swing']/torn['swing'].sum()
-    print(torn.head())
-    #print(torn.index)
+
     base_case = total_revenue(df_ass['base'],countries)
     print(base_case)
 
