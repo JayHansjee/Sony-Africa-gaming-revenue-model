@@ -1,0 +1,17 @@
+# Virtual environments
+.venv/
+
+
+# Python
+__pycache__/
+*.pyc
+pyrightconfig.json
+
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors / OS
+.vscode/
+.idea/
+Thumbs.db
