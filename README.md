@@ -4,7 +4,7 @@ An estimate of Sony's PlayStation revenue in Africa, built entirely from public 
 
 ## Background
 
-This repo is a Python rewrite of the gaming side of my original research, written up in [`WRITEUP_FILENAME`](WRITEUP_FILENAME). The writeup covers the full methodology, data sources and reasoning behind each assumption; this code re-implements the gaming model so it can be rerun, stress-tested and extended. The original model was built in Excel, and the Python base case is checked against it.
+This repo is a Python rewrite of the gaming side of my original research, written up in [`docs/Sony Africa.docx`](WRITEUP_FILENAME). The writeup covers the full methodology, data sources and reasoning behind each assumption; this code re-implements the gaming model so it can be rerun, stress-tested and extended. The original model was built in Excel, and the Python base case is checked against it.
 
 ## Model structure
 
