@@ -2128,7 +2128,6 @@ name = "sony-africa-gaming-revenue-model"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
-    { name = "ipykernel" },
     { name = "jupyter" },
     { name = "matplotlib" },
     { name = "pandas" },
@@ -2141,7 +2140,6 @@ dev = [
 
 [package.metadata]
 requires-dist = [
-    { name = "ipykernel", specifier = ">=7.4.0" },
     { name = "jupyter", specifier = ">=1.1.1" },
     { name = "matplotlib", specifier = ">=3.11.2" },
     { name = "pandas", specifier = ">=2.2" },

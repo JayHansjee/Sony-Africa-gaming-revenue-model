@@ -13,7 +13,10 @@ if __name__ == '__main__':
     torn = tornado_series(df_ass, countries, assumptions)
     torn['perc_swing'] = 100*torn['swing']/torn['swing'].sum()
 
-    base_case = total_revenue(df_ass['base'],countries)
-    print(base_case)
+    base_case = round(total_revenue(df_ass['base'],countries), 2)
+    low_case = round(total_revenue(df_ass['low'],countries), 2)
+    high_case = round(total_revenue(df_ass['high'],countries), 2)
+
+    print(f"The base case estimate is ${base_case}mn. The high case is ${high_case}mn, and the low is ${low_case}".format())
 
     tornado_plot(torn, base_case)
